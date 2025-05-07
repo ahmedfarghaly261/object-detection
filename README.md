@@ -7,16 +7,27 @@ This project is a complete object detection system that detects and classifies m
 
 object-detection-system/
 ├── models/ # Contains trained model and label encoder
+
 ├── src/
+
 │ ├── main.py # Entry point with GUI
+
 │ ├── detector.py # Prediction and visualization logic
+
 │ ├── preprocessing.py # Image preprocessing & augmentation
+
 │ ├── segmentation.py # ROI segmentation and bounding box logic
+
 │ ├── feature_extraction.py # HOG-based feature extractor
+
 │ └── gui.py # Tkinter GUI for user interaction
+
 ├── images/ # Sample input images (optional)
+
 ├── README.md # Project documentation
+
 ├── .gitignore # Git ignore rules (e.g., ignoring venv/)
+
 └── requirements.txt # List of required packages
 
 bash
